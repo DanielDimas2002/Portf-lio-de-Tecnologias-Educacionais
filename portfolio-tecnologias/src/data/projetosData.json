@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titulo": "Simulador em VR",
+    "descricao": "Experiência imersiva em realidade virtual",
+    "apresentacao": {
+      "tipo": "imagem",
+      "arquivo": "../public/assets/ImagemTeste1.jpg"
+    },
+    "tags": ["VR", "Mecânica"]
+  },
+  {
+    "id": 2,
+    "titulo": "Treinamento RA",
+    "descricao": "Experiência em realidade aumentada",
+    "apresentacao": {
+      "tipo": "video",
+      "arquivo": "../public/assets/VideoTeste2.mp4"
+    },
+    "tags": ["RA", "Mecânica"]
+  },
+  {
+    "id": 3,
+    "titulo": "Aula de Edificações",
+    "descricao": "Vídeo do YouTube mostrando técnicas de construção",
+    "apresentacao": {
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/Gql3ElZx0Ww"
+    },
+    "tags": ["Vídeo 360", "Edificações"]
+  }
+]

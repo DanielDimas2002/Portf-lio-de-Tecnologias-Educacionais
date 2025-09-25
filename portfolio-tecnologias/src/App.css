@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha se não couber */
+  gap: 16px;       /* espaço entre os cards */
+  justify-content: flex-start; /* ou center para centralizar */
+}

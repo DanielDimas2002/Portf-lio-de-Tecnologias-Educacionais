@@ -1,0 +1,56 @@
+/* Card.css */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.card .tags span {
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+.card-video {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}

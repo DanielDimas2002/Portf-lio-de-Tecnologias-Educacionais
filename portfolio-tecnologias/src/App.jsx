@@ -1,13 +1,10 @@
 // src/App.jsx
 import React from "react";
+import Inicial from "./pages/Inicial";
+import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <h1>Portfólio de Tecnologias Educacionais</h1>
-      <p>Em desenvolvimento...</p>
-    </div>
-  );
+  return <Inicial/>;
 }
 
 export default App;
