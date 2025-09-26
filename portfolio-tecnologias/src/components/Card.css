@@ -28,11 +28,16 @@
 .card h3 {
   font-size: 1.1rem;
   margin: 0;
+  color: #1d4ed8;
 }
 
 .card p {
   font-size: 0.9rem;
   color: #555;
+}
+
+.card span{
+  color: #1d4ed8;
 }
 
 .card .tags {
@@ -42,7 +47,7 @@
 }
 
 .card .tags span {
-  background-color: #eee;
+  background-color: #fff4e6;
   border-radius: 6px;
   padding: 2px 6px;
   font-size: 0.75rem;

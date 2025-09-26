@@ -5,9 +5,10 @@
     "descricao": "Experiência imersiva em realidade virtual",
     "apresentacao": {
       "tipo": "imagem",
-      "arquivo": "../public/assets/ImagemTeste1.jpg"
+      "arquivo": "/assets/ImagemTeste1.jpg"
     },
-    "tags": ["VR", "Mecânica"]
+    "tags": ["VR", "Mecânica"],
+    "destaque": true
   },
   {
     "id": 2,
@@ -15,9 +16,10 @@
     "descricao": "Experiência em realidade aumentada",
     "apresentacao": {
       "tipo": "video",
-      "arquivo": "../public/assets/VideoTeste2.mp4"
+      "arquivo": "/assets/VideoTeste2.mp4"
     },
-    "tags": ["RA", "Mecânica"]
+    "tags": ["RA", "Mecânica"],
+    "destaque": false
   },
   {
     "id": 3,
@@ -27,6 +29,62 @@
       "tipo": "youtube",
       "url": "https://www.youtube.com/embed/Gql3ElZx0Ww"
     },
-    "tags": ["Vídeo 360", "Edificações"]
+    "tags": ["Vídeo 360", "Edificações"],
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "titulo": "Guia Interativo BIM",
+    "descricao": "Exploração de conceitos de BIM em realidade aumentada",
+    "apresentacao": {
+      "tipo": "imagem",
+      "arquivo": "/assets/ImagemTeste1.jpg"
+    },
+    "tags": ["RA", "BIM"],
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "titulo": "Manutenção em Motores",
+    "descricao": "Simulação VR para manutenção em motores mecânicos",
+    "apresentacao": {
+      "tipo": "video",
+      "arquivo": "/assets/VideoTeste1.mp4"
+    },
+    "tags": ["VR", "Mecânica"],
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "titulo": "Curso Interativo de Estruturas",
+    "descricao": "Aulas imersivas em vídeo 360 sobre técnicas de construção",
+    "apresentacao": {
+      "tipo": "youtube",
+      "url": "https://www.youtube.com/embed/Gql3ElZx0Ww"
+    },
+    "tags": ["Vídeo 360", "Edificações"],
+    "destaque": true
+  },
+  {
+    "id": 7,
+    "titulo": "Treinamento de Segurança",
+    "descricao": "Aplicativo APK para treinamento de segurança em obras",
+    "apresentacao": {
+      "tipo": "imagem",
+      "arquivo": "/assets/ImagemTeste1.jpg"
+    },
+    "tags": ["APK", "Segurança"],
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "titulo": "Exploração de Máquinas Pesadas",
+    "descricao": "Realidade virtual para operação de guindastes e escavadeiras",
+    "apresentacao": {
+      "tipo": "video",
+      "arquivo": "/assets/VideoTeste2.mp4"
+    },
+    "tags": ["VR", "Mecânica"],
+    "destaque": true
   }
 ]

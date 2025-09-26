@@ -30,7 +30,7 @@ function Card({ projeto, onClick }) {
         <div className="card-tags">
           {projeto.tags.map((tag, index) => (
             <span className="card-tag" key={index}>
-              {tag}
+              {`${tag} `} 
             </span>
           ))}
         </div>
