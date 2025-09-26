@@ -9,7 +9,7 @@ function Menu ({aoSelecionarFiltro}){
                     <button onClick={() => aoSelecionarFiltro("todos")}>Todos</button>
                 </li>
                 <li>
-                    <button onClick={() => aoSelecionarFiltro("VR")}>
+                    <button onClick={() => aoSelecionarFiltro("RV")}>
                         Realidade Virtual (RV)
                     </button>
                 </li>

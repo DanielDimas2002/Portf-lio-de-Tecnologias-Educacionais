@@ -1,14 +1,13 @@
 [
   {
     "id": 1,
-    "titulo": "Simulador em VR",
+    "titulo": "Simulador em RV",
     "descricao": "Experiência imersiva em realidade virtual",
     "apresentacao": {
       "tipo": "imagem",
       "arquivo": "/assets/ImagemTeste1.jpg"
     },
-    "tags": ["VR", "Mecânica"],
-    "destaque": true
+    "tags": ["RV", "Mecânica"]
   },
   {
     "id": 2,
@@ -18,8 +17,7 @@
       "tipo": "video",
       "arquivo": "/assets/VideoTeste2.mp4"
     },
-    "tags": ["RA", "Mecânica"],
-    "destaque": false
+    "tags": ["RA", "Mecânica"]
   },
   {
     "id": 3,
@@ -29,8 +27,7 @@
       "tipo": "youtube",
       "url": "https://www.youtube.com/embed/Gql3ElZx0Ww"
     },
-    "tags": ["Vídeo 360", "Edificações"],
-    "destaque": true
+    "tags": ["Vídeo 360", "Edificações"]
   },
   {
     "id": 4,
@@ -40,19 +37,17 @@
       "tipo": "imagem",
       "arquivo": "/assets/ImagemTeste1.jpg"
     },
-    "tags": ["RA", "BIM"],
-    "destaque": false
+    "tags": ["RA", "BIM"]
   },
   {
     "id": 5,
     "titulo": "Manutenção em Motores",
-    "descricao": "Simulação VR para manutenção em motores mecânicos",
+    "descricao": "Simulação RV para manutenção em motores mecânicos",
     "apresentacao": {
       "tipo": "video",
       "arquivo": "/assets/VideoTeste1.mp4"
     },
-    "tags": ["VR", "Mecânica"],
-    "destaque": false
+    "tags": ["RV", "Mecânica"]
   },
   {
     "id": 6,
@@ -62,8 +57,7 @@
       "tipo": "youtube",
       "url": "https://www.youtube.com/embed/Gql3ElZx0Ww"
     },
-    "tags": ["Vídeo 360", "Edificações"],
-    "destaque": true
+    "tags": ["Vídeo 360", "Edificações"]
   },
   {
     "id": 7,
@@ -73,8 +67,7 @@
       "tipo": "imagem",
       "arquivo": "/assets/ImagemTeste1.jpg"
     },
-    "tags": ["APK", "Segurança"],
-    "destaque": false
+    "tags": ["APK", "Segurança"]
   },
   {
     "id": 8,
@@ -84,7 +77,6 @@
       "tipo": "video",
       "arquivo": "/assets/VideoTeste2.mp4"
     },
-    "tags": ["VR", "Mecânica"],
-    "destaque": true
+    "tags": ["RV", "Mecânica"]
   }
 ]

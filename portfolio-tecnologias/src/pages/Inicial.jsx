@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "../components/Card";
 import Menu from "../components/Menu";
-import projetosData from "../data/projetosData.json";
+import projetosData from "../data/projetosGerais.json";
 
 function Inicial() {
 
